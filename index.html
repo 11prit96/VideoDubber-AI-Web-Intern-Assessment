@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video_dubber.ai_we_developer_intern_assessment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex lg:flex-col sm:flex-row items-center justify-center p-8">
+        <div class="lg:w-1/2 h-1/2 md:w-3/5 h-3/5">
+            <div class="lg:p-4 sm:p-1 scroll-smooth">
+                <div class="video-container">
+                    <video controls class="rounded-2xl max-w-full">
+                        <source src="video1.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+        <button class="w-16 h-8 bg-orange-900 rounded-2xl cursor-pointer">
+            <p class="lg:text-xs md:ml-0.5  text-white">
+                Submit
+            </p>
+        </button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
